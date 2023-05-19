@@ -1,0 +1,146 @@
+*{
+    /* margin: 0 auto; */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    text-decoration: underline;
+    font-size: 20px;
+    background-image: linear-gradient(to right, red, green, yellow);
+    text-align: center;
+}
+
+.nav span{
+    background: rgba(42, 98, 120, 0.734);
+}
+
+/* li{
+    width: 150px;
+    align-content: center;
+    display: inline-block;
+} */
+
+.sub-nav{
+    text-align: center;
+    width: 600px;
+    height: px;
+    margin: 0 auto;
+    background-color: skyblue;
+    border:2px solid red;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+
+ul{
+    width: 150px;
+    align-content: center;
+    display: inline-block;
+}
+
+.flex-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: aqua;
+    margin: 5px auto;
+}
+
+.div1s{
+    text-align: center;
+    padding: 4px 2px;
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.JEE{
+    text-decoration: underline;
+    font-size: 16px;
+    background-image: linear-gradient(to right, red, yellow, red);
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom:10px;
+}
+
+.flex-div2{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: radial-gradient(blue,rgb(110, 200, 236),rgba(0, 128, 0, 0.671));
+    margin: 5px auto;
+}
+
+.divs2{
+    background: rgb(243, 243, 53);
+    color: red;
+    border: 1px solid red;
+    border-radius: 8px;
+    width: 180px;
+    height:100px;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 25px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto 80px;
+    font-weight: 900;
+    color: white;
+    gap: 10px ;
+}
+
+.gridItem1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background: rgba(255, 0, 0, 0.755);
+    text-align: center;
+}
+
+.gridItem2{
+    background: rgb(182, 250, 80);
+    text-align: center;
+    padding: 3px 5px;
+}
+
+.gridItem3{
+    background: skyblue;
+    color: white;
+}
+
+.gridItem4{
+    background: blueviolet;
+}
+
+.gridItem5{
+    background: rgb(29, 29, 29);
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.gridItem5 li{
+    list-style-position: inside;
+    text-align: left;
+    text-decoration: underline;
+    color: rgba(245, 245, 245, 0.895);
+    font-weight: 500px;
+}
+
+.gridItem6{
+    background: rgb(241, 150, 21);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.gridItem7{
+    background: skyblue;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+    color: black;
+}
